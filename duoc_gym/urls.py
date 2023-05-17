@@ -27,5 +27,5 @@ urlpatterns = [
     path('cliente', views.cliente,name="cliente"),
     path('canchas', views.canchas,name="canchas"),
     path('cancha-usuario', views.canchas2,name="canchausuario"),
-    path('login', views.Login, name="login")
+    path('login', views.Login, name="login"),
 ]
